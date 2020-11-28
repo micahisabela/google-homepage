@@ -1,3 +1,7 @@
+body {
+  margin-top: 20px;
+}
+
 header {
   position: relative;
   margin: 7px 0 0 10px;
@@ -40,8 +44,24 @@ img {
   max-width: 100%;
 }
 
+form {
+  text-align: center;
+}
+
+.searchBar {
+  width: 460px;
+  font: 16px arial, sans-serif;
+  line-height: 34px;
+  margin-bottom: 30px;
+  border: 1px solid black;
+  border-radius: 50px;
+}
+
+.button {
+}
+
 footer {
-  margin-top: 650px;
+  margin-top: 590px;
   text-align: center;
   line-height: 40px;
   background: #f2f2f2;
