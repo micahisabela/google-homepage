@@ -32,14 +32,31 @@ header {
   padding-right: 15px;
 }
 
+button {
+  margin-left: 15px;
+  background-color: #4683ee;
+  padding: 10px 12px 10px 12px;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  font-weight: bold;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.center {
+  padding-top: 100px;
+}
+
 .logo {
-  height: 200px;
+  height: 170px;
   line-height: 200px;
+  text-align: center;
 }
 
 img {
-  display: block;
-  margin: 0 auto;
   padding-top: 47px;
   max-width: 100%;
 }
@@ -53,15 +70,32 @@ form {
   font: 16px arial, sans-serif;
   line-height: 34px;
   margin-bottom: 30px;
-  border: 1px solid black;
+  border: 1px solid #eeeeee;
   border-radius: 50px;
 }
 
-.button {
+.searchBar:hover {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.searchButton {
+  background-color: #f6f6f6;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  color: #5f6368;
+  margin-right: 10px;
+}
+
+.searchButton:hover {
+  cursor: pointer;
+  border: 1px solid #c6c6c6;
+  color: #222;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 }
 
 footer {
-  margin-top: 590px;
+  margin-top: 500px;
   text-align: center;
   line-height: 40px;
   background: #f2f2f2;
